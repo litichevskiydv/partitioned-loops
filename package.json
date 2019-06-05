@@ -1,0 +1,29 @@
+{
+  "name": "partitioned-loops",
+  "version": "1.0.0",
+  "description": "Library for partitioned loops organization",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litichevskiydv/partitioned-loops.git"
+  },
+  "keywords": [
+    "partitioned",
+    "loop"
+  ],
+  "author": "Dmitriy Litichevskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/litichevskiydv/partitioned-loops/issues"
+  },
+  "homepage": "https://github.com/litichevskiydv/partitioned-loops#readme"
+}
