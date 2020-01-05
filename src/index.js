@@ -11,13 +11,13 @@ function* range(fromInclusive, toExclusive) {
   while (fromInclusive < toExclusive) yield fromInclusive++;
 }
 
-async function forEachAsync(source, body, loopState) {
+function forEachAsync(source, body, loopState) {
   return new Promise(resolve => {
     forEachBody(source[Symbol.iterator](), body, loopState || {}, resolve);
   });
 };
 
-async function forAsync(fromInclusive, toExclusive, body, loopState) {
+function forAsync(fromInclusive, toExclusive, body, loopState) {
   return forEachAsync(range(fromInclusive, toExclusive), body, loopState);
 };
 
