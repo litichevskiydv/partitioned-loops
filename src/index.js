@@ -12,13 +12,13 @@ function* range(fromInclusive, toExclusive) {
 }
 
 async function forEachAsync(source, body, loopState) {
-  return await new Promise(resolve => {
+  return new Promise(resolve => {
     forEachBody(source[Symbol.iterator](), body, loopState || {}, resolve);
   });
 };
 
 async function forAsync(fromInclusive, toExclusive, body, loopState) {
-  return await forEachAsync(range(fromInclusive, toExclusive), body, loopState);
+  return forEachAsync(range(fromInclusive, toExclusive), body, loopState);
 };
 
 module.exports = { forAsync, forEachAsync};
