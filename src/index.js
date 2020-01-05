@@ -21,4 +21,4 @@ async function forAsync(fromInclusive, toExclusive, body, loopState) {
   return forEachAsync(range(fromInclusive, toExclusive), body, loopState);
 };
 
-module.exports = { forAsync, forEachAsync};
+module.exports = { forAsync, forEachAsync };
