@@ -7,16 +7,19 @@ node_js:
   - "13"
   - lts/*
   - node
+install: npm ci
 script:
   - npm test
 jobs:
   include:
     - stage: coverage
       node_js: lts/*
+      install: npm ci
       script: jest --coverage --coverageReporters=text-lcov | coveralls
     - stage: deploy
       if: branch = master && commit_message !~ /no-deploy/
       node_js: lts/*
+      install: npm ci
       script: skip
       deploy:
         provider: npm
