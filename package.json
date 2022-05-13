@@ -1,6 +1,6 @@
 {
   "name": "partitioned-loops",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library for partitioned loops organization",
   "engines": {
     "node": ">=8"
