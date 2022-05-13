@@ -2,8 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/partitioned-loops.svg)](https://www.npmjs.com/package/partitioned-loops)
 [![npm downloads](https://img.shields.io/npm/dt/partitioned-loops.svg)](https://www.npmjs.com/package/partitioned-loops)
-[![dependencies](https://img.shields.io/david/litichevskiydv/partitioned-loops.svg)](https://www.npmjs.com/package/partitioned-loops)
-[![dev dependencies](https://img.shields.io/david/dev/litichevskiydv/partitioned-loops.svg)](https://www.npmjs.com/package/partitioned-loops)
+[![dependencies status](https://img.shields.io/librariesio/github/litichevskiydv/partitioned-loops)](https://www.npmjs.com/package/partitioned-loops)
 [![Build Status](https://github.com/litichevskiydv/partitioned-loops/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/litichevskiydv/partitioned-loops/actions/workflows/ci.yaml)
 [![Coverage Status](https://coveralls.io/repos/github/litichevskiydv/partitioned-loops/badge.svg?branch=master)](https://coveralls.io/github/litichevskiydv/partitioned-loops?branch=master)
 
